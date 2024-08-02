@@ -3,7 +3,7 @@
 
 import { useState } from 'react';
 import { getAuth, signInWithEmailAndPassword, createUserWithEmailAndPassword } from 'firebase/auth';
-import { app } from './/firebase';
+import { app } from '../firebase';
 
 
 const auth = getAuth(app);
